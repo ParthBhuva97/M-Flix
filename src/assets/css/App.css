@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+img{
+    border: 1px solid black;
+}
+
+.poster{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
