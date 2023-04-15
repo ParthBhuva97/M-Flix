@@ -25,6 +25,7 @@
     padding: 1rem;
     border: 1px solid black;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 img{
@@ -36,4 +37,53 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.modal-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 39, 39, 0.911);
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.card{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.left{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.left img{
+    padding: 1rem;
+}
+
+.right{
+    margin: 1rem;
+}
+
+.close-btn{
+    position: absolute;
+    font-size: xx-large;
+    top:30px;
+    right: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+span{
+    color: rgba(255, 255, 255, 0.782);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
