@@ -51,8 +51,10 @@ function App() {
           </div>
         </div>
         <div className="row">
-          <div className="col">
+          <div className="search-container">
             <input
+             className="search"
+             placeholder="Search Any Movie"
               type="text"
               onChange={(e) => {
                 setSearch(e.target.value);
